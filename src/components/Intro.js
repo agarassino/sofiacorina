@@ -1,12 +1,22 @@
 import React from "react";
-import { StaticImage } from 'gatsby-plugin-image';
+import { StaticImage } from "gatsby-plugin-image";
 const intro = () => {
   return (
-    <div>
-      <div>
-        <StaticImage src="../images/foto1.jpg" />
+    <div className="flex shadow-lg mb-12 rounded-md">
+      <div id="intro-img" className="p-10">
+        <div className="md:flex-shrink-0 ">
+          <StaticImage
+            className="h-28 w-full rounded-full object-cover md:w-28"
+            src="../images/foto1.jpg"
+            alt="Sofia Corina"
+          />
+        </div>
       </div>
-      <div className="shadow-lg p-4">
+
+      <div
+        id="intro-phrase"
+        className="bg-opacity-400 p-10 subpixel-antialiased font-serif"
+      >
         Me motivan los desafíos y los proyectos innovadores. Disfruto de
         investigar, aprender nuevas competencias y me adapto a diferentes
         situaciones. Presento habilidades para obtener y analizar información y

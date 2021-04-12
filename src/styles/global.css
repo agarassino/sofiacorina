@@ -3,13 +3,35 @@
 @tailwind utilities;
 
 @layer base {
+    * {
+      font-family: "Nunito";
+
+    }
     h1 {
-      @apply text-4xl;
+      @apply text-5xl;
+      color: #939366;
+      font-weight: 400;
     },
     h2 {
-      @apply text-2xl;
+      @apply text-3xl;
     },
     h3 {
         @apply text-2xl;
+    }
+    #contact {
+      color: #BA5C3C;
+      font-size: .7rem;
+    }
+    #intro-phrase {
+      background-color: #FBFAE9;
+      font-size: 1.3rem;
+    }
+    #intro-img {
+      background-color: #939366;
+    }
+
+    #footer {
+      min-height: 3rem;
+      background-color: #939366;
     }
   }

@@ -1,11 +1,14 @@
 module.exports = {
   siteMetadata: {
     title: "Sofia Corina - Agro",
+    siteUrl : "https://www.sofiacorina.com"
   },
   plugins: [
     "gatsby-plugin-styled-components",
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
+    "gatsby-plugin-postcss",
+    "gatsby-plugin-fontawesome-css",
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
