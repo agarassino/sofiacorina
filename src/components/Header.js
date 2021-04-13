@@ -15,14 +15,14 @@ const links = [
 ];
 const header = () => {
   return (
-    <div className="header grid grid-cols-3 my-8 mb-10">
+    <div className="header grid  md:grid-cols-3 my-8 mb-10">
       <div>
         <h1>Sofia Corina</h1>
         <h4 className="ml-1">Analista Agrícola</h4>
       </div>
       <div></div>
-      <div id="contact" className="social-header text-left border-grey border-l-4 pl-5">
-        <h3>Contacto</h3>
+      <div id="contact" className="mt-5 sm:mt-0 social-header text-left border-grey border-l-4 pl-5">
+        <h3 className="hidden sm:block">Contacto</h3>
         <ul>
           <li>
             <FontAwesomeIcon icon={faEnvelope} /> info@sofiacorina.com

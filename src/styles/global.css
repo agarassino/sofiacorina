@@ -34,4 +34,7 @@
       min-height: 3rem;
       background-color: #939366;
     }
+    #contact ul li {
+      font-size: 1rem;
+    }
   }

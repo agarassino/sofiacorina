@@ -2,11 +2,11 @@ import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 const intro = () => {
   return (
-    <div className="flex shadow-lg mb-12 rounded-md">
-      <div id="intro-img" className="p-10">
-        <div className="md:flex-shrink-0 ">
+    <div className="flex flex-col sm:flex-row mb-12">
+      <div id="intro-img" className="sm:p-2">
+        <div className="md:flex-shrink-0 rounded-lg overflow-hidden sm:rounded-lg">
           <StaticImage
-            className="h-28 w-full rounded-full object-cover md:w-28"
+            className="object-cover w-full"
             src="../images/foto1.jpg"
             alt="Sofia Corina"
           />
