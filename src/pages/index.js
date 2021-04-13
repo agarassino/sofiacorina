@@ -10,11 +10,11 @@ import "@fontsource/nunito";
 // markup
 const IndexPage = () => {
   return (
-    <main className="m-12">
+    <main className="m-6 sm:m-12">
       <div className="container mx-auto">
         <Header />
         <Intro />
-        <div className="grid grid-cols-2">
+        <div className="flex flex-col sm:grid sm:grid-cols-2">
           <Experience />
           <Education />
         </div>

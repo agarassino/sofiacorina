@@ -55,7 +55,7 @@ const education = () => {
     return (
       <div
         key={exp.id}
-        className="my-4 p-4 rounded-r-lg border-green-400 border-l-4 shadow-xl bg-white"
+        className="my-4 p-4 rounded-r-lg border-green-400 border-l-4 text-md shadow-xl bg-white"
       >
         <div className="mt-2">
           <span className="text-2xl text-gray-700 font-bold hover:text-gray-600">
@@ -85,7 +85,7 @@ const education = () => {
     );
   });
   return (
-    <div className="my-8">
+    <div className="sm:my-8">
       <h2 className="text-left border-green-600 border-l-4 pl-4">Educación</h2>
       <div>{education}</div>
       <h2 className="my-12 text-left border-green-600 border-l-4 pl-4">Idiomas</h2>

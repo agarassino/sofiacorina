@@ -11,6 +11,14 @@ const experience = () => {
       to: "Actualidad",
     },
     {
+      id: 9,
+      company: "Proteina Ventures",
+      position: "Mentora en AgTech",
+      desc: "",
+      from: "Septiembre 2020",
+      to: "Actualidad",
+    },
+    {
       id: 2,
       company: "Bolsa de Comercio de Rosario.",
       position: "Analista Investigador de Mercados de Granos.",
@@ -22,15 +30,15 @@ const experience = () => {
       id: 3,
       company: "Establecimiento Don Guido.",
       position: "Coordinadora en la comercialización de granos.",
-      desc: "Apoderada en empresa agrícola familiar  ̈Don Guido",
+      desc: "Empresa agrícola Don Guido",
       from: "Marzo 2013",
       to: "Actualidad",
     },
     {
       id: 4,
       company: "Bolsa de Comercio de Rosario.",
-      position: "Profesora del Departamento de Capacitación.",
-      desc: "Seminarios de Análisis fundamental de mercados agrícolas (2017). Gestión de costos para la empresa agraria (2018).",
+      position: "Departamento de Capacitación.",
+      desc: "Tutora de Programa del Formación (2016 - Actualidad). Gestión de costos para la empresa agraria (2018) Seminarios de Análisis fundamental de mercados agrícolas (2017).",
       from: "",
       to: "",
     },
@@ -92,7 +100,7 @@ const experience = () => {
     );
   });
   return (
-    <div className="my-8 mr-4">
+    <div className="sm:my-8 sm:mr-4">
          <h2 className="text-left border-green-600 border-l-4 pl-4">Experiencia</h2>
       <div>{experiences}</div>
     </div>

@@ -56,7 +56,7 @@ const media = () => {
         break;
     }
     return (
-      <div className="rounded shadow-lg my-2 mr-4 flex items-center flex-col">
+      <div className="rounded shadow-lg my-2 sm:mr-4 flex items-center flex-col">
         {img}
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2">{exp.media}</div>
@@ -66,11 +66,11 @@ const media = () => {
     );
   });
   return (
-    <div className="my-8 mr-2">
+    <div className="sm:my-8 sm:mr-2">
       <h2 className="text-left border-green-600 border-l-4 pl-4 my-4">
         Medios
       </h2>
-      <div className="grid grid-cols-2 sm:grid-cols-4">{media}</div>
+      <div className="flex flex-col sm:grid sm:grid-cols-4">{media}</div>
     </div>
   );
 };
