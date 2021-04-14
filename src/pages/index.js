@@ -5,12 +5,18 @@ import Experience from "../components/Experience";
 import Education from "../components/Education";
 import Media from "../components/Media";
 import { StaticImage } from "gatsby-plugin-image";
-import Footer from '../components/Footer';
+import Footer from "../components/Footer";
+import Helmet from 'react-helmet'
 import "@fontsource/nunito";
 // markup
 const IndexPage = () => {
   return (
     <main className="m-6 sm:m-12">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Sofia Corina - Ingeniera agrónoma</title>
+        <link rel="canonical" href="http://sofiacorina.com" />
+      </Helmet>
       <div className="container mx-auto">
         <Header />
         <Intro />
@@ -29,9 +35,8 @@ const IndexPage = () => {
           <Media />
         </div>
       </div>
-   
+
       <Footer className="w-full" />
-      
     </main>
   );
 };
