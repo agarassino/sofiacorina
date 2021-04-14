@@ -52,11 +52,6 @@ const education = () => {
       desc:
         "Edwards Language School, Sprachcaffe. Diploma acreditado por el Consejo Británico. (2016)",
     },
-    {
-      id: 3,
-      language: "First Certificate CEFR B2 aprobado.",
-      desc: "Asociación Rosarina de Cultura Inglesa, Rosario. (2017)",
-    },
   ];
   const education = educationList.map((exp) => {
     return (
