@@ -18,6 +18,13 @@ const education = () => {
         "Diploma de Honor por promedio académico: 8,61 sin materias desaprobadas",
     },
     {
+      id: 5,
+      institution: "Universidad Austral",
+      title: "Cursado Maestría en Finanzas (2019 - 2020)",
+      extra:
+        "Diploma de Honor por promedio académico: 8,61 sin materias desaprobadas",
+    },
+    {
       id: 3,
       institution: "Escuela de Negocios de Fundación Libertad,",
       title:

@@ -4,9 +4,9 @@ const experience = () => {
   const experiencesList = [
     {
       id: 1,
-      company: "Bolsa de Comercio de Rosario.",
-      position: "Analista en Estimaciones Agrícolas.",
-      desc: "Guía Estratégica para el Agro.",
+      company: "Guía Estratégica para el Agro. Clasificación supervisada de coberturas con imágenes satelitales en Google Earth Engine (Java Script) Relevamiento de condición de cultivos de soja, trigo y maíz en región núcleo",
+      position: "Analista Senior en Estimaciones Agrícolas",
+      desc: "Bolsa de Comercio de Rosario.",
       from: "Febrero 2019",
       to: "Actualidad",
     },
@@ -29,8 +29,8 @@ const experience = () => {
     {
       id: 3,
       company: "Establecimiento Don Guido.",
-      position: "Coordinadora en la comercialización de granos.",
-      desc: "Empresa agrícola Don Guido",
+      position: "Gestón con Synagro y comercialización de granos.",
+      desc: "Empresa agrícola",
       from: "Marzo 2013",
       to: "Actualidad",
     },
@@ -58,7 +58,7 @@ const experience = () => {
       from: "Febrero 2011",
       to: "Actualidad",
     },
-    {
+   /* {
       id: 7,
       company: "",
       position: "Participación del Crop Tour de Lanworth, Thomson Reuters.",
@@ -73,7 +73,7 @@ const experience = () => {
       desc: "Cátedra Cultivos Extensivos. Facultad de Ciencias Agrarias U.N.R.",
       from: "Agosto 2011",
       to: "Septiembre 2012",
-    },
+    },*/
   ];
 
   const experiences = experiencesList.map((exp) => {
@@ -89,10 +89,10 @@ const experience = () => {
             className="text-2xl text-gray-700 font-bold hover:text-gray-600"
             href="#"
           >
-            {exp.company}
+            {exp.position}
           </span>
           <p className="mt-2 text-gray-600">
-            <strong>{exp.position}</strong>
+            <strong>{exp.company}</strong>
           </p>
           <p>{exp.desc}</p>
         </div>

@@ -1,22 +1,6 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 
-const canal3 = (
-  <StaticImage
-    className="h-28 w-full rounded-full"
-    src="../images/canal_3.jpeg"
-    alt="Sofia Corina"
-  />
-);
-
-const canalRural = (
-  <StaticImage
-    className="h-28 w-full rounded-full"
-    src="../images/canal_rural.png"
-    alt="Sofia Corina"
-  />
-);
-
 const media = () => {
   const mediaList = [
     {
@@ -30,6 +14,11 @@ const media = () => {
       desc:
         "Notas semanales de clima y cultivos en el programa televisivo Antes de Salir.",
       logo: "canal3",
+    },
+    {
+      media: "BCR News",
+      desc: "Micros semanales sobre condición de cultivos en zona núcleo",
+      logo: "bcrnews",
     },
   ];
 
@@ -51,6 +40,16 @@ const media = () => {
             className="w-1/2 rounded-full object fit"
             src="../images/canal_rural.png"
             alt="Canal Rural"
+          />
+        );
+        break;
+
+      case "bcrnews":
+        img = (
+          <StaticImage
+            className="w-1/2  object fit my-5 mb-14"
+            src="../images/bcrnews.jpeg"
+            alt="BCR News"
           />
         );
         break;
